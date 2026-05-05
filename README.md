@@ -20,7 +20,7 @@
 
 ## 🚀 What I’m Building
 
-### 🤖 **Ruska AI**
+### 🤖 **Mifune**
 **Agent-native software infrastructure for real businesses.**
 
 Ruska is an opinionated platform for:
@@ -29,7 +29,7 @@ Ruska is an opinionated platform for:
 - Sub-agents you can spin up, tear down, and route across tools
 - One system → many surfaces: **Web, IDE, CLI, TUI, Slack, CI**
 
-🌐 **https://ruska.ai**  
+🌐 **https://oh.mifune.dev**  
 📺 Building in public on YouTube, Twitch, and LinkedIn.
 
 ---

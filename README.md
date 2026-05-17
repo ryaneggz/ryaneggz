@@ -1,6 +1,6 @@
 # Hi, I’m Ryan 👋
 
-📍 **St. George, UT ↔ Dallas, TX** | 🤖 **Agentic systems builder** | 🚀 **Founder @ Mifune** (formerly Ruska AI)
+📍 **Dallas, TX ↔ St. George, UT**  | 🚀 **Founder @ Mifune** (formerly Ruska AI)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -13,50 +13,41 @@
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 
-> Building **Mifune** and **[open-harness](https://github.com/ryaneggz/open-harness)** — durable runtimes for agents that actually run in production.  
+> Open-sourcing **[open-harness](https://github.com/ryaneggz/open-harness)** — the sandboxed agent runtime — with **Mifune** (a tuned Pi agent) as the agent flavor I ship inside.  
 > Less prompt, more platform.
 
 ---
 
 ## 🚀 What I’m Building
 
-### 🤖 **Mifune** *(formerly Ruska AI)*
-**Agent-native software infrastructure for real businesses.**
-
-> 🪦 **Ruska AI has been retired and replaced by Mifune.** Same mission, new name — all Ruska repos, domains, and tooling are migrating under the Mifune banner.
-
-Mifune is an opinionated platform for:
-- Multi-agent orchestration (LangGraph, DeepAgents, MCP, A2A)
-- Persistent state & filesystem-backed context
-- Sub-agents you can spin up, tear down, and route across tools
-- One system → many surfaces: **Web, IDE, CLI, TUI, Slack, CI**
-
-🌐 **https://oh.mifune.dev**  
-📺 Building in public on YouTube, Twitch, and LinkedIn.
-
 ### 🛠️ **[open-harness](https://github.com/ryaneggz/open-harness)**
-**The open-source sandboxed agent runtime powering Mifune.**
+**The open-source sandboxed agent runtime.**
 
-A Dockerized, reproducible workspace for long-running AI agents — git-native, skill-driven, and built around the orchestrator/sandbox split. If you want a real harness to put Claude Code, Codex, or your own agent inside, start here:
+A Dockerized, reproducible workspace for long-running AI agents — git-native, skill-driven, built around the orchestrator/sandbox split. Pluggable agent layer: drop in Claude Code, Codex, your own — or use Mifune.
 
 ```bash
 git clone https://github.com/ryaneggz/open-harness
 cd open-harness && make sandbox
 ```
 
-⭐ **Star [`ryaneggz/open-harness`](https://github.com/ryaneggz/open-harness)** if you're building agent infra — it's the cleanest way to see how Mifune runs.
+⭐ **Star [`ryaneggz/open-harness`](https://github.com/ryaneggz/open-harness)** if you're building agent infra.
+
+### 🤖 **Mifune** *(formerly Ruska AI)*
+**A lightly customized Pi agent that ships as a first-class option inside open-harness.**
+
+> 🪦 **Ruska AI has been retired.** What used to be the Ruska platform is now split: **open-harness** is the runtime, **Mifune** is the agent flavor.
+
+Pre-configured for the workflows I run daily — multi-agent orchestration, persistent state, sub-agent routing, one stack across **Web, IDE, CLI, TUI, Slack, CI**.
+
+🌐 **https://oh.mifune.dev**  
+📺 Building in public on YouTube, Twitch, and LinkedIn.
 
 ---
 
 ## 🧠 Core Projects
 
-- 🎼 **Orchestra** – Multi-agent orchestration engine with checkpoints, queues, and tool routing
-- 🧑‍✈️ **DeepAgents Harness** – Long-running agents that can delegate, pause, and resume work
-- 🖥️ **Agent Chat UI** – Self-hosted, auth-ready agent interface (LangGraph-native)
-- 🧰 **Mifune CLI** – Manage agents, prompts, tasks, and state from your terminal
+- 🎼 **[Orchestra](https://github.com/mifunedev/orchestra)** – Multi-agent orchestration engine with checkpoints, queues, and tool routing
 - 📦 **[open-harness](https://github.com/ryaneggz/open-harness)** – Open-source sandboxed agent harness — the runtime Mifune is built on
-- 🗂️ **Persistent Context Layer** – File-system + DB backed memory for agents that outlive sessions
-- 🔌 **MCP Servers & Bridges** – Claude Code, Codex, tools, and agents talking to each other
 
 ---
 
@@ -65,7 +56,7 @@ cd open-harness && make sandbox
 - **Agents & CLIs**: Claude Code CLI, Pi, Codex, MCP — LangGraph / DeepAgents when the workflow needs a graph
 - **Backend**: FastAPI, TaskIQ, Redis, Postgres, Supabase
 - **Infra**: Docker, AWS, Bedrock, Cloudflare, Netlify
-- **Models**: Claude, GPT-4.x, Gemini, local & hosted LLMs
+- **Models & Agents**: Claude, Codex, OpenCode, Pi Agent (Mifune), DeepAgents
 - **Dev Ergonomics**: CLIs, TUIs, streaming APIs, checkpointing, resumability
 
 I care a lot about:
@@ -77,7 +68,6 @@ I care a lot about:
 
 ## 📡 Community & Content
 
-- 🎥 **Prompt Engineers AI** – Nightly stream building agents in public
 - 👥 **Plano Prompt Engineers** – 1,000+ member AI builder community
 - ✍️ Writing about:
   - **Sandboxed agent runtimes** — Docker, devcontainers, tmux, and the boring infra agents actually need
@@ -90,8 +80,8 @@ I care a lot about:
 
 ## 📈 What I’m Doing Right Now
 
-- Shipping **Mifune** as a unified agent control plane (formerly Ruska)
-- Open-sourcing the runtime via **[open-harness](https://github.com/ryaneggz/open-harness)**
+- Shipping **[open-harness](https://github.com/ryaneggz/open-harness)** as the open-source agent runtime
+- Bundling **Mifune** (a tuned Pi agent) as the default agent flavor inside it
 - Designing **IaC for agents** (spin up, edit, destroy, rehydrate)
 - Hardening long-running agents with queues + checkpoints
 - Exploring **agent → agent → agent** workflows at scale

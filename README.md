@@ -1,6 +1,6 @@
 # Hi, I’m Ryan 👋
 
-📍 **St. George, UT ↔ Dallas, TX** | 🤖 **Agentic systems builder** | 🚀 **Founder @ Ruska AI**
+📍 **St. George, UT ↔ Dallas, TX** | 🤖 **Agentic systems builder** | 🚀 **Founder @ Mifune** (formerly Ruska AI)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -20,10 +20,12 @@
 
 ## 🚀 What I’m Building
 
-### 🤖 **Mifune**
+### 🤖 **Mifune** *(formerly Ruska AI)*
 **Agent-native software infrastructure for real businesses.**
 
-Ruska is an opinionated platform for:
+> 🪦 **Ruska AI has been retired and replaced by Mifune.** Same mission, new name — all Ruska repos, domains, and tooling are migrating under the Mifune banner.
+
+Mifune is an opinionated platform for:
 - Multi-agent orchestration (LangGraph, DeepAgents, MCP, A2A)
 - Persistent state & filesystem-backed context
 - Sub-agents you can spin up, tear down, and route across tools
@@ -32,6 +34,18 @@ Ruska is an opinionated platform for:
 🌐 **https://oh.mifune.dev**  
 📺 Building in public on YouTube, Twitch, and LinkedIn.
 
+### 🛠️ **[open-harness](https://github.com/ryaneggz/open-harness)**
+**The open-source sandboxed agent runtime powering Mifune.**
+
+A Dockerized, reproducible workspace for long-running AI agents — git-native, skill-driven, and built around the orchestrator/sandbox split. If you want a real harness to put Claude Code, Codex, or your own agent inside, start here:
+
+```bash
+git clone https://github.com/ryaneggz/open-harness
+cd open-harness && make sandbox
+```
+
+⭐ **Star [`ryaneggz/open-harness`](https://github.com/ryaneggz/open-harness)** if you're building agent infra — it's the cleanest way to see how Mifune runs.
+
 ---
 
 ## 🧠 Core Projects
@@ -39,7 +53,8 @@ Ruska is an opinionated platform for:
 - 🎼 **Orchestra** – Multi-agent orchestration engine with checkpoints, queues, and tool routing
 - 🧑‍✈️ **DeepAgents Harness** – Long-running agents that can delegate, pause, and resume work
 - 🖥️ **Agent Chat UI** – Self-hosted, auth-ready agent interface (LangGraph-native)
-- 🧰 **Ruska CLI** – Manage agents, prompts, tasks, and state from your terminal
+- 🧰 **Mifune CLI** – Manage agents, prompts, tasks, and state from your terminal
+- 📦 **[open-harness](https://github.com/ryaneggz/open-harness)** – Open-source sandboxed agent harness — the runtime Mifune is built on
 - 🗂️ **Persistent Context Layer** – File-system + DB backed memory for agents that outlive sessions
 - 🔌 **MCP Servers & Bridges** – Claude Code, Codex, tools, and agents talking to each other
 
@@ -74,7 +89,8 @@ I care a lot about:
 
 ## 📈 What I’m Doing Right Now
 
-- Shipping Ruska as a **unified agent control plane**
+- Shipping **Mifune** as a unified agent control plane (formerly Ruska)
+- Open-sourcing the runtime via **[open-harness](https://github.com/ryaneggz/open-harness)**
 - Designing **IaC for agents** (spin up, edit, destroy, rehydrate)
 - Hardening long-running agents with queues + checkpoints
 - Exploring **agent → agent → agent** workflows at scale
@@ -101,7 +117,8 @@ I care a lot about:
 
 ## 🔗 Connect
 
-[![Website](https://img.shields.io/badge/-ruska.ai-000000?style=flat-square&logo=firefox&logoColor=white)](https://ruska.ai)
+[![Website](https://img.shields.io/badge/-mifune.dev-000000?style=flat-square&logo=firefox&logoColor=white)](https://oh.mifune.dev)
+[![open-harness](https://img.shields.io/badge/-open--harness-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ryaneggz/open-harness)
 [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ruska-ai)
 [![Twitch](https://img.shields.io/badge/-Twitch-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://www.twitch.tv/ryaneggz)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com)

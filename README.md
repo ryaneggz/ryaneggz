@@ -13,8 +13,8 @@
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 
-> Deep in **agent orchestration mode** — building production-grade AI systems that don’t just chat, but *run*, *coordinate*, and *ship*.  
-> Focused on turning LLMs into durable infrastructure instead of demos.
+> Building **Mifune** and **[open-harness](https://github.com/ryaneggz/open-harness)** — durable runtimes for agents that actually run in production.  
+> Less prompt, more platform.
 
 ---
 
@@ -62,7 +62,7 @@ cd open-harness && make sandbox
 
 ## 🛠️ What I Work With Daily
 
-- **Agent Frameworks**: LangGraph, LangChain, DeepAgents, MCP
+- **Agents & CLIs**: Claude Code CLI, Pi, Codex, MCP — LangGraph / DeepAgents when the workflow needs a graph
 - **Backend**: FastAPI, TaskIQ, Redis, Postgres, Supabase
 - **Infra**: Docker, AWS, Bedrock, Cloudflare, Netlify
 - **Models**: Claude, GPT-4.x, Gemini, local & hosted LLMs
@@ -80,9 +80,10 @@ I care a lot about:
 - 🎥 **Prompt Engineers AI** – Nightly stream building agents in public
 - 👥 **Plano Prompt Engineers** – 1,000+ member AI builder community
 - ✍️ Writing about:
-  - Agent orchestration
-  - Production LLM systems
-  - Building leverage as a solo / small-team engineer
+  - **Sandboxed agent runtimes** — Docker, devcontainers, tmux, and the boring infra agents actually need
+  - **The orchestrator / sandbox split** — what changes when you separate the agent's brain from its workspace
+  - **Open-sourcing agent infra** — Mifune, open-harness, and the case for transparent platforms
+  - **From Claude Code demo → production system** — what breaks first and how to harden it
 - 🧠 Teaching devs how to stop prompting and start *architecting*
 
 ---

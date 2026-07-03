@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/-Ryan_Eggleston-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-eggleston)
 [![X](https://img.shields.io/badge/-JohnEggz-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/JohnEggz)
 [![Twitch](https://img.shields.io/badge/-ryaneggz-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://www.twitch.tv/ryaneggz)
-[![YouTube](https://img.shields.io/badge/-mifune--dev-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@mifune-dev)
+[![YouTube](https://img.shields.io/badge/-mifune--dev-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ryaneggz)
 
 I build agent infrastructure that survives real work: isolated runtimes, managed AI workers, and orchestration systems that are easier to audit than to hand-wave.
 

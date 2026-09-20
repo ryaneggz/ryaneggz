@@ -3,7 +3,7 @@
 📍 **Saint George, UT** · 🚀 **Founder @ Mifune**
 
 [![Mifune](https://img.shields.io/badge/-Mifune-000000?style=flat-square&logo=firefox&logoColor=white)](https://mifune.dev)
-[![Open Harness](https://img.shields.io/badge/-Open_Harness-181717?style=flat-square&logo=github&logoColor=white)](https://oh.mifune.dev)
+[![AGRO](https://img.shields.io/badge/-Open_Harness-181717?style=flat-square&logo=github&logoColor=white)](https://oh.mifune.dev)
 [![GitHub](https://img.shields.io/badge/-ryaneggz-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ryaneggz)
 [![LinkedIn](https://img.shields.io/badge/-Ryan_Eggleston-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-eggleston)
 [![X](https://img.shields.io/badge/-JohnEggz-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/JohnEggz)

@@ -21,15 +21,15 @@ AI implementation partner for businesses that need managed AI workers, not anoth
 
 We build follow-up, admin, CRM, reporting, and internal workflow automations with teams on-screen so they own the system.
 
-### 🏗️ [Open Harness](https://oh.mifune.dev)
+### 🏗️ [AGRO (Agent Governance Runtime Orchestrator)](https://agro.mifune.dev)
 A portable Docker agent harness: one repo per sandbox, one isolated workspace, versioned state for coding agents like Claude Code, Codex, OpenCode, and Pi.
 
-- **Docs:** https://oh.mifune.dev
-- **Code:** https://github.com/mifunedev/openharness
+- **Docs:** https://agro.mifune.dev
+- **Code:** https://github.com/mifunedev/agro
 - **Install:**
 
 ```bash
-curl -fsSL https://oh.mifune.dev/install.sh | bash
+curl -fsSL https://agro.mifune.dev/install.sh | bash
 ```
 
 ### 🎼 [Orchestra](https://github.com/mifunedev/orchestra)
